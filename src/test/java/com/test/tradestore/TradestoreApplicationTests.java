@@ -1,4 +1,4 @@
-package com.tradestore.tradestore;
+package com.test.tradestore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
