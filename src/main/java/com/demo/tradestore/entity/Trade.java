@@ -16,14 +16,14 @@ public class Trade {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
 	private String tradeId; // could have used composite id combining traceId and version
-	private int version;
+	private int version; // could have used @Version
 	private String counterPartyId;
 
 	private String bookId;
 
 	private LocalDate maturityDate;
 	private LocalDate createdDate;
-	private boolean expired;
+	private boolean expired; // could have customized it to store Y or N.
 
 	public long getId() {
 		return id;
