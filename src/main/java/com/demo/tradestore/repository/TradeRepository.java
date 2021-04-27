@@ -1,4 +1,4 @@
-package com.test.tradestore.repository;
+package com.demo.tradestore.repository;
 
 import java.time.LocalDate;
 
@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.test.tradestore.entity.Trade;
+import com.demo.tradestore.entity.Trade;
 
 @Repository
 public interface TradeRepository extends JpaRepository<Trade, Long> {

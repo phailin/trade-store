@@ -1,4 +1,4 @@
-package com.test.tradestore.resource;
+package com.demo.tradestore.resource;
 
 import javax.validation.Valid;
 
@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.test.tradestore.constants.TradeStoreConstant;
-import com.test.tradestore.dto.TradeInputDto;
-import com.test.tradestore.service.TradeService;
+import com.demo.tradestore.constants.TradeStoreConstant;
+import com.demo.tradestore.dto.TradeInputDto;
+import com.demo.tradestore.service.TradeService;
 
 @RestController
 public class TradeResource {

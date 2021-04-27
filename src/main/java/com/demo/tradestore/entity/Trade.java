@@ -1,4 +1,4 @@
-package com.test.tradestore.entity;
+package com.demo.tradestore.entity;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package com.test.tradestore.resource;
+package com.demo.tradestore.resource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
@@ -11,7 +11,8 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
 
-import com.test.tradestore.constants.TradeStoreConstant;
+import com.demo.tradestore.constants.TradeStoreConstant;
+import com.demo.tradestore.resource.TradeResource;
 
 @WebMvcTest(TradeResource.class)
 public class TradeResourceTest {

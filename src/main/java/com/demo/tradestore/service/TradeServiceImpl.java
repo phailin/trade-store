@@ -1,4 +1,4 @@
-package com.test.tradestore.service;
+package com.demo.tradestore.service;
 
 import java.time.LocalDate;
 import java.util.Optional;
@@ -7,11 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.test.tradestore.constants.TradeStoreConstant;
-import com.test.tradestore.dto.TradeInputDto;
-import com.test.tradestore.entity.Trade;
-import com.test.tradestore.exception.TradeStoreException;
-import com.test.tradestore.repository.TradeRepository;
+import com.demo.tradestore.constants.TradeStoreConstant;
+import com.demo.tradestore.dto.TradeInputDto;
+import com.demo.tradestore.entity.Trade;
+import com.demo.tradestore.exception.TradeStoreException;
+import com.demo.tradestore.repository.TradeRepository;
 
 @Service
 public class TradeServiceImpl implements TradeService {

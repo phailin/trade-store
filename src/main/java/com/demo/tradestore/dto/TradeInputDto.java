@@ -1,4 +1,4 @@
-package com.test.tradestore.dto;
+package com.demo.tradestore.dto;
 
 import java.time.LocalDate;
 
@@ -6,8 +6,8 @@ import javax.validation.constraints.FutureOrPresent;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Positive;
 
+import com.demo.tradestore.constants.TradeStoreConstant;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.test.tradestore.constants.TradeStoreConstant;
 
 public class TradeInputDto {
 

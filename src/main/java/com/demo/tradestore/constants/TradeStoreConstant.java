@@ -1,4 +1,4 @@
-package com.test.tradestore.constants;
+package com.demo.tradestore.constants;
 
 public class TradeStoreConstant {
 

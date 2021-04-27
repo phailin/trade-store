@@ -1,4 +1,4 @@
-package com.test.tradestore.repository;
+package com.demo.tradestore.repository;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace.NONE;
@@ -11,7 +11,8 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 
-import com.test.tradestore.entity.Trade;
+import com.demo.tradestore.entity.Trade;
+import com.demo.tradestore.repository.TradeRepository;
 
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = NONE)

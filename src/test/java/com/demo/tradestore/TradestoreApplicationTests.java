@@ -1,4 +1,4 @@
-package com.test.tradestore;
+package com.demo.tradestore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,10 +6,10 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import com.demo.tradestore.TradeStoreApplication;
+import com.demo.tradestore.resource.TradeResource;
 
-import com.test.tradestore.TradeStoreApplication;
-import com.test.tradestore.resource.TradeResource;
+import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @ContextConfiguration(classes = TradeStoreApplication.class)

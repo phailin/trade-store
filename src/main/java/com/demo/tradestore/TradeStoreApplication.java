@@ -1,4 +1,4 @@
-package com.test.tradestore;
+package com.demo.tradestore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

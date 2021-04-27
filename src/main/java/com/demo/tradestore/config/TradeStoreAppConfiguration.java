@@ -1,14 +1,14 @@
-package com.test.tradestore.config;
+package com.demo.tradestore.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-import com.test.tradestore.repository.TradeRepository;
-import com.test.tradestore.scheduler.ScheduleTask;
-import com.test.tradestore.scheduler.ScheduleTaskImpl;
-import com.test.tradestore.service.TradeService;
-import com.test.tradestore.service.TradeServiceImpl;
+import com.demo.tradestore.repository.TradeRepository;
+import com.demo.tradestore.scheduler.ScheduleTask;
+import com.demo.tradestore.scheduler.ScheduleTaskImpl;
+import com.demo.tradestore.service.TradeService;
+import com.demo.tradestore.service.TradeServiceImpl;
 
 @Configuration
 @EnableScheduling

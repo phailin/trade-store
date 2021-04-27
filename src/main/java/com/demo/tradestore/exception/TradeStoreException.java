@@ -1,4 +1,4 @@
-package com.test.tradestore.exception;
+package com.demo.tradestore.exception;
 
 public class TradeStoreException extends RuntimeException {
 
