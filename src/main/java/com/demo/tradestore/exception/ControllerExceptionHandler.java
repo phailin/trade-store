@@ -17,7 +17,7 @@ import org.springframework.web.context.request.WebRequest;
 @ResponseBody
 public class ControllerExceptionHandler {
 
-	@ResponseStatus(HttpStatus.BAD_REQUEST)
+	@ResponseStatus(HttpStatus.BAD_REQUEST) // this override the status code set by other method like ResponseEntity or redirect.
 	@ExceptionHandler(MethodArgumentNotValidException.class)
 	public Map<String, String> handleValidationExceptions(MethodArgumentNotValidException ex) {
 
